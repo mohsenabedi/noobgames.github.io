@@ -1,2 +1,3 @@
-# noobgames.github.io
-for noobgames.dev website
+# Shadow of Time
+
+Landing site for the indie game **Shadow of Time**. Deploy via GitHub Pages by serving the repository root.
