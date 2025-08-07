@@ -22,9 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (lightbox && lightboxImg && closeBtn) {
     // Open lightbox when gallery image clicked
-    document.querySelectorAll('.gallery-img').forEach(img => {
+    document.querySelectorAll('.gallery-item img').forEach(img => {
       img.addEventListener('click', () => {
         lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
         lightbox.classList.add('active');
       });
     });
