@@ -28,6 +28,13 @@ body {
   font-size: 1.1rem;
 }
 
+/* Global link styles */
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -89,7 +96,8 @@ nav a {
   font-family: var(--font-main);
   font-size: 1.2rem;
   transition: color 0.3s;
-  color: var(--secondary);
+  color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -487,7 +495,8 @@ main ul {
 }
 
 main a {
-  color: var(--accent);
+  color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -571,6 +580,13 @@ main a:hover {
 .policy-content a:hover {
   text-decoration: underline;
   display: flex;
+}
+
+/* Override all links to be white and bold */
+a {
+  color: white !important;
+  font-weight: bold !important;
+  text-decoration: none;
 }
 
 /* Responsive Breakpoints */
